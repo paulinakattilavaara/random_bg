@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.btn {
+  padding: 3rem;
+  font-size: 2rem;
+  border: 3px solid;
+  color: white;
+  background-color: black;
+}
